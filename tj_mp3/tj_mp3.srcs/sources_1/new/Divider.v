@@ -27,7 +27,10 @@ module Divider #(
     output reg O_CLK  // Ö±½ÓÊä³ö reg
 );
     reg [31:0] cnt; 
-
+    initial begin
+            cnt = 0;
+            O_CLK = 0;
+        end
     always @(posedge I_CLK) begin
         if (rst) begin
             cnt <= 0;
