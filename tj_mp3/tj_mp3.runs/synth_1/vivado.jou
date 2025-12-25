@@ -2,11 +2,11 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Thu Dec 25 12:08:56 2025
-# Process ID: 30044
+# Start of session at: Thu Dec 25 23:48:49 2025
+# Process ID: 28004
 # Current directory: F:/vivadotest/tj_mp3/tj_mp3/tj_mp3.runs/synth_1
-# Command line: vivado.exe -log display7.vds -mode batch -messageDb vivado.pb -notrace -source display7.tcl
-# Log file: F:/vivadotest/tj_mp3/tj_mp3/tj_mp3.runs/synth_1/display7.vds
+# Command line: vivado.exe -log system_top.vds -mode batch -messageDb vivado.pb -notrace -source system_top.tcl
+# Log file: F:/vivadotest/tj_mp3/tj_mp3/tj_mp3.runs/synth_1/system_top.vds
 # Journal file: F:/vivadotest/tj_mp3/tj_mp3/tj_mp3.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source display7.tcl -notrace
+source system_top.tcl -notrace

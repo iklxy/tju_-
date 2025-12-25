@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Thu Dec 25 12:14:50 2025">
+<application name="pa" timeStamp="Fri Dec 26 00:09:00 2025">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="84744602d04d41f989e1f6f07c9b809c" type="ProjectID"/>
-<property name="ProjectIteration" value="9" type="ProjectIteration"/>
+<property name="ProjectIteration" value="22" type="ProjectIteration"/>
 </section>
 <section name="PlanAhead Usage" visible="true">
 <item name="Project Data">
@@ -17,38 +17,57 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
 </item>
 <item name="Java Command Handlers">
-<property name="AddSources" value="8" type="JavaHandler"/>
-<property name="AutoConnectTarget" value="1" type="JavaHandler"/>
-<property name="EditDelete" value="1" type="JavaHandler"/>
-<property name="LaunchProgramFpga" value="1" type="JavaHandler"/>
+<property name="AddSources" value="12" type="JavaHandler"/>
+<property name="AutoConnectTarget" value="2" type="JavaHandler"/>
+<property name="EditDelete" value="3" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="6" type="JavaHandler"/>
 <property name="NewProject" value="3" type="JavaHandler"/>
-<property name="OpenHardwareManager" value="1" type="JavaHandler"/>
-<property name="ProjectSettingsCmdHandler" value="2" type="JavaHandler"/>
-<property name="RunBitgen" value="4" type="JavaHandler"/>
-<property name="RunImplementation" value="4" type="JavaHandler"/>
-<property name="RunSynthesis" value="4" type="JavaHandler"/>
-<property name="ShowView" value="3" type="JavaHandler"/>
-<property name="SimulationRun" value="4" type="JavaHandler"/>
-<property name="ViewTaskImplementation" value="4" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="5" type="JavaHandler"/>
+<property name="ProjectSettingsCmdHandler" value="3" type="JavaHandler"/>
+<property name="RunBitgen" value="10" type="JavaHandler"/>
+<property name="RunImplementation" value="11" type="JavaHandler"/>
+<property name="RunSynthesis" value="15" type="JavaHandler"/>
+<property name="SetTopNode" value="2" type="JavaHandler"/>
+<property name="ShowView" value="8" type="JavaHandler"/>
+<property name="SimulationRun" value="5" type="JavaHandler"/>
+<property name="ViewTaskImplementation" value="10" type="JavaHandler"/>
 <property name="ViewTaskSynthesis" value="1" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
 <property name="PAResourceAtoD.CmdMsgDialog_OK, OK" value="1" type="GuiResourceData"/>
-<property name="PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, Auto Connect" value="1" type="GuiResourceData"/>
-<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Open Hardware Manager], 36, true" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, Open target" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, Program device" value="1" type="GuiResourceData"/>
-<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="1" type="GuiResourceData"/>
-<property name="RDIResource.BaseDialog_CANCEL, Cancel" value="1" type="GuiResourceData"/>
-<property name="Setting.xdc, 483, 180" value="1" type="GuiResourceData"/>
-<property name="display7_tb.v, 216, 92" value="1" type="GuiResourceData"/>
-<property name="display7_tb.v, 255, 191" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Program and Debug, Hardware Manager], 36, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, Program device" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProgramFpgaDialog_PROGRAM, Program" value="2" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="1" type="GuiResourceData"/>
+<property name="Top.v, 105, 120" value="1" type="GuiResourceData"/>
+<property name="Top.v, 108, 141" value="1" type="GuiResourceData"/>
+<property name="Top.v, 108, 147" value="1" type="GuiResourceData"/>
+<property name="Top.v, 113, 120" value="1" type="GuiResourceData"/>
+<property name="Top.v, 114, 141" value="1" type="GuiResourceData"/>
+<property name="Top.v, 124, 141" value="1" type="GuiResourceData"/>
+<property name="Top.v, 125, 206" value="1" type="GuiResourceData"/>
+<property name="Top.v, 125, 206, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Top.v, 133, 88" value="1" type="GuiResourceData"/>
+<property name="Top.v, 133, 88, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Top.v, 133, 97" value="1" type="GuiResourceData"/>
+<property name="Top.v, 155, 109" value="1" type="GuiResourceData"/>
+<property name="Top.v, 175, 87" value="1" type="GuiResourceData"/>
+<property name="Top.v, 175, 87, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Top.v, 179, 180" value="1" type="GuiResourceData"/>
+<property name="Top.v, 196, 83" value="1" type="GuiResourceData"/>
+<property name="Top.v, 45, 140" value="1" type="GuiResourceData"/>
+<property name="Top.v, 60, 133" value="1" type="GuiResourceData"/>
+<property name="Top.v, 71, 121" value="1" type="GuiResourceData"/>
+<property name="Top.v, 71, 144" value="1" type="GuiResourceData"/>
+<property name="Top.v, 71, 144, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="Top.v, 82, 123" value="1" type="GuiResourceData"/>
+<property name="Top.v, 86, 120" value="1" type="GuiResourceData"/>
+<property name="Top.v, 87, 145" value="1" type="GuiResourceData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="87" type="GuiMode"/>
+<property name="GuiMode" value="89" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="83" type="TclMode"/>
+<property name="TclMode" value="84" type="TclMode"/>
 </item>
 </section>
 </application>

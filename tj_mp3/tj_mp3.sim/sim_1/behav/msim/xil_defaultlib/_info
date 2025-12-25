@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dF:/vivadotest/tj_mp3/tj_mp3/tj_mp3.sim/sim_1/behav
 vdisplay7
-Z1 !s110 1766634787
+Z1 !s110 1766672739
 !i10b 1
-!s100 T=B7lgZd_e4<U7gdhPRPE1
-IK[g6B`FBXPOnSXIG>PG^23
+!s100 5Pn;aN>if7oc9I[38e=e:1
+IV0mV_eDoGl?hk<fm>2=[60
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1766634707
+w1766634892
 8../../../tj_mp3.srcs/sources_1/new/display7.v
 F../../../tj_mp3.srcs/sources_1/new/display7.v
 L0 27
@@ -23,7 +23,7 @@ Z3 OP;L;10.4c;61
 r1
 !s85 0
 31
-Z4 !s108 1766634787.000000
+Z4 !s108 1766672739.000000
 Z5 !s107 ../../../tj_mp3.srcs/sim_1/new/display7_tb.v|../../../tj_mp3.srcs/sources_1/new/display7.v|../../../tj_mp3.srcs/sources_1/new/Divider.v|
 Z6 !s90 -64|-incr|-work|xil_defaultlib|../../../tj_mp3.srcs/sources_1/new/Divider.v|../../../tj_mp3.srcs/sources_1/new/display7.v|../../../tj_mp3.srcs/sim_1/new/display7_tb.v|
 !i113 1

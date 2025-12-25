@@ -27,6 +27,8 @@
 module display7(
     input CLK,
     input [15:0] Data,
+    input [2:0] current,   // 新增：当前歌曲号 (来自 top 里的控制逻辑)
+    input [15:0] vol,      // 新增：当前音量 (来自 top 里的控制逻辑)
     output reg [6:0] SEG,
     output reg [7:0] SHIFT,
     output reg DOT
@@ -56,8 +58,18 @@ module display7(
             Time[7: 4] <= (Data/10)%6;
             Time[11: 8] <= (Data/60)%10;
             Time[15: 12] <= Data/600;
-            if(Data%2) Time[31: 16] <= 16'b1101111011011110;
-            else  Time[31: 16] <= 16'b1110110111101101;
+            //数码管8 (最左边): 歌曲号 (为了符合习惯，我们让它显示 1-4 而不是 0-3)
+             Time[31: 28] <= {1'b0, current} + 1; 
+                    
+             // 数码管7: 横杠 "-" (我们定义 4'd10 代表横杠)
+              Time[27: 24] <= 4'd10; 
+                    
+              // 数码管6: 音量高位 (取 vol 的高8位中的高4位)
+              Time[23: 20] <= vol[15:12]; 
+                    
+              // 数码管5: 音量低位
+              Time[19: 16] <= vol[11:8];
+              
             case ({Time[cnt+3], Time[cnt+2], Time[cnt+1], Time[cnt]}) 
                 4'b0000: begin
                     SEG<=7'b1000000;
@@ -94,6 +106,9 @@ module display7(
                 end
                 4'b1110: begin 
                     SEG<=7'b0011101;
+                end
+                4'd10: begin 
+                    SEG<=7'b0111111;
                 end
                 default: begin
                     SEG<=7'b1111111;
